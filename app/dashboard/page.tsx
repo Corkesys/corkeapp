@@ -4,7 +4,7 @@ export default function Dashboard() {
       <header className="border-b border-zinc-800 px-6 py-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div>
-            <h1 className="text-lg font-semibold text-white">SolidWorks Companion</h1>
+            <h1 className="text-lg font-semibold text-white">Corkeapp</h1>
             <p className="text-sm text-zinc-400">Assembly · Mating · Macros · API</p>
           </div>
           <span className="text-xs text-zinc-500 border border-zinc-700 rounded-full px-3 py-1">Free plan</span>
@@ -39,7 +39,7 @@ export default function Dashboard() {
         <section className="space-y-4">
           <h2 className="text-base font-medium text-zinc-300">AI assistant</h2>
           <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-4 space-y-3">
-            <p className="text-zinc-400 text-sm">Ask anything about SolidWorks assemblies, mates, macros, or errors.</p>
+            <p className="text-zinc-400 text-sm">Ask anything about CAD assemblies, mates, macros, or errors.</p>
             <textarea
               className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-3 py-2 text-sm text-white resize-none focus:outline-none focus:border-blue-500"
               rows={4}
