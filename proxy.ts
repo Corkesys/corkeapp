@@ -6,7 +6,7 @@ const WINDOW_MS = 60_000;
 const MAX_FREE = 5;
 const MAX_PAID = 30;
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   if (!req.nextUrl.pathname.startsWith("/api/")) {
     return NextResponse.next();
   }
